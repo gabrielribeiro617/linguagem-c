@@ -16,7 +16,8 @@ int main(){
     premio = salario * 0.15;
 
     if (strcmp(sexo, "f") == 0 && anos >= 10) {
-        printf("\033[32mParabens! Voce ganhou um premio de R$%.2f\033[m", premio);
+        printf("\033[32mParabens! Voce ganhou um premio de R$%.2f!\n", premio);
+        printf("\033[35mSalario final: R$%.2f\033[m", (salario + premio));
     } else {
         printf("\033[31mVoce nao cumprio os requisitos para obter o premio.\033[m");
     }
