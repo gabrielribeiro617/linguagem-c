@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main(){
-    int numero, soma, a, b;
+    int numero, soma = 0, a, b;
 
-    printf("SOMATORIO\n");
+    printf("\033[1mSOMATORIO\n");
     printf("Digite o valor de A: ");
     scanf("%d", &a);
     printf("Digite o valor de B: ");
@@ -16,7 +16,7 @@ int main(){
         numero++;
     }
 
-    printf("Somatorio: %d", soma);
+    printf("\033[32mSomatorio: %d\033[m", soma);
 
     return 0;
 }
