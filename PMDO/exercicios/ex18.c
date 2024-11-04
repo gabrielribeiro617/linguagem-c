@@ -5,10 +5,22 @@ int main(){
                             {4, 5, 6},
                             {7, 8, 9}};
 
-    puts("Imprimindo a primeira linha:\n");
+    puts("\033[1mImprimindo a primeira linha:");
+
     for (i = 0; i < 3; i++) {
-        printf("%d | ", mat[0][i]);
+        printf("%d  ", mat[0][i]);
     }
+
+    puts("\n\nImprimindo a matriz toda:");
+
+    for (i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            printf("%d  ", mat[i][j]);
+        }
+        puts("");
+    }
+
+    puts("\033[m");
 
     return 0;
 }
