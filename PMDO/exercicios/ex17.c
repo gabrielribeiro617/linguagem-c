@@ -36,6 +36,7 @@ int main(){
 
     printf("Tamanho do Texto1 (strlen): %d letras\n", i);
     puts("Texto1 espacado: ");
+    
     for (i = 0; i < strlen(texto1); i++) {
         printf("%c ", texto1[i]);
         // Imprimi cada caractere, da string texto 1, de forma espaçada.
