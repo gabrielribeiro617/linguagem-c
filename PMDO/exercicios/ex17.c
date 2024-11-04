@@ -12,7 +12,7 @@ int main(){
     char texto1[10] = "casa", texto2[10] = "-verde";
 
     puts(texto1);
-    strcpy(texto1, "chá");
+    strcpy(texto1, "cha");
     /* A função strcpy é usada para alterar o conteúdo de uma
     string. */
     // strcpy ( <destino>, <origem> );
