@@ -17,7 +17,7 @@ int main(){
 
     tipo_pessoa pes = {0, 0.0, "Teste"};
 
-    puts("\033[1mInicio:");
+    puts("Inicio:");
     printf("Idade: %d\n", pes.idade);
     printf("Peso: %.2f\n", pes.peso);
     printf("Nome: %s\n", pes.nome);
@@ -46,7 +46,7 @@ int main(){
     puts("Alterando com dados do usuario:");
     printf("Idade: %d\n", pes.idade);
     printf("Peso: %.2f\n", pes.peso);
-    printf("Nome: %s\033[m", pes.nome);
+    printf("Nome: %s", pes.nome);
 
     return 0;
 }
