@@ -35,10 +35,10 @@ int main(){
     puts("");
     puts("Insira a sua idade:");
     scanf("%d", &pes.idade);
-    puts("Insira o seu peso:\n");
+    puts("Insira o seu peso:");
     scanf("%f", &pes.peso);
     fflush(stdin);
-    puts("Insira o seu nome:\n");
+    puts("Insira o seu nome:");
     fgets(pes.nome, 50, stdin);
     fflush(stdin);
 
