@@ -26,21 +26,24 @@ int main(){
     pes.peso = 99.99;
     strcpy(pes.nome, "Texto");
 
+    puts("");
     puts("Alterando os campos via codigo:");
     printf("Idade: %d\n", pes.idade);
     printf("Peso: %.2f\n", pes.peso);
     printf("Nome: %s\n", pes.nome);
 
+    puts("");
     puts("Insira a sua idade:");
     scanf("%d", &pes.idade);
     puts("Insira o seu peso:\n");
-    scanf("%f", pes.peso);
+    scanf("%f", &pes.peso);
     fflush(stdin);
     puts("Insira o seu nome:\n");
     fgets(pes.nome, 50, stdin);
     fflush(stdin);
 
-    puts("\nAlterando com dados do usuario:");
+    puts("");
+    puts("Alterando com dados do usuario:");
     printf("Idade: %d\n", pes.idade);
     printf("Peso: %.2f\n", pes.peso);
     printf("Nome: %s\033[m", pes.nome);
