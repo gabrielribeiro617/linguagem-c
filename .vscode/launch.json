@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/RGR RIBEIRO/Desktop/ESTUDOS/Cursos/HTML5 + CSS3 - Curso em Vídeo/estudos/linguagem-c/PMDO/exercicios/ex25",
-      "program": "c:/Users/RGR RIBEIRO/Desktop/ESTUDOS/Cursos/HTML5 + CSS3 - Curso em Vídeo/estudos/linguagem-c/PMDO/exercicios/ex25/build/Debug/outDebug",
+      "cwd": "c:/Users/RGR RIBEIRO/Desktop/ESTUDOS/Cursos/HTML5 + CSS3 - Curso em Vídeo/estudos/linguagem-c/PMDO/exercicios/ex25.dev",
+      "program": "c:/Users/RGR RIBEIRO/Desktop/ESTUDOS/Cursos/HTML5 + CSS3 - Curso em Vídeo/estudos/linguagem-c/PMDO/exercicios/ex25.dev/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
