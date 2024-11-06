@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int mais(int argc, char **argv) {
+int main(int argc, char **argv) {
     float nt, na, ne, med;   
     char conc;
 
@@ -25,7 +25,7 @@ int mais(int argc, char **argv) {
         conc = 'E';
     }
 
-    printf("Media ponderada: %.2f", med);
+    printf("Media ponderada: %.2f\n", med);
     printf("Conceito: %c", conc);
 
     return 0;
