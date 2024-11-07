@@ -19,5 +19,8 @@ int main(int argc, char **argv) {
         puts("");
     }
     
+    puts("");
+    system("pause");
+
     return 0;
 }
